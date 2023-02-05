@@ -43,7 +43,6 @@ ifstream file("/Users/lautlos/work/Doktordatei/db.txt");
             outCurr = "int " + curr ;
         } catch ( ... ) {
             outCurr = "string " + curr ;
-            //cout << "is string: " << curr;
         }
         cout << "prev: " << outPrev << " curr: " << outCurr << "\n ";
         outPrev = outCurr;
