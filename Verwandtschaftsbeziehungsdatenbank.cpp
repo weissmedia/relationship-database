@@ -47,26 +47,6 @@ ifstream file("/Users/lautlos/work/Doktordatei/db.txt");
         }
         cout << "prev: " << outPrev << " curr: " << outCurr << "\n ";
         outPrev = outCurr;
-        /*
-        if (curr.length() == 0){
-            continue;
-        }
-
-        cout << curr << "\n";
-        i = std::stoi(curr)
-        
-        if (isdigit()) {
-            cout << "Ist eine Zahl: " <<curr;
-        }
-        else {
-            cout << "ist eine Buchstabe: " << curr;
-        }
-        //*/
-
-       //ich brauch zwei variablen prev und curr
-        
-
-     //cout << data << endl;
     }
 
     return 0;
